@@ -4,6 +4,7 @@ clusters=duncs test fred duncs1 fred1 test1 test2 test3 test4 test5 live test de
 command=
 comms=ssh
 console_position=
+console_width=25
 extra_cluster_file=
 history_height=10
 history_width=40

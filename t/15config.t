@@ -52,6 +52,7 @@ Readonly::Hash my %default_config => {
     window_tiling           => "yes",
     window_tiling_direction => "right",
     console_position        => "",
+    console_width           => 25,
 
     screen_reserve_top    => 0,
     screen_reserve_bottom => 60,
@@ -527,6 +528,7 @@ auto_quit=yes
 console=console
 console_args=
 console_position=
+console_width=25
 debug=0
 external_cluster_command=
 extra_cluster_file=

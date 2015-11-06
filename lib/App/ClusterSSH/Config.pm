@@ -49,6 +49,7 @@ my %default_config = (
     window_tiling           => "yes",
     window_tiling_direction => "right",
     console_position        => "",
+    console_width           => 25,
 
     screen_reserve_top    => 0,
     screen_reserve_bottom => 60,

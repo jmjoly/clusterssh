@@ -1392,7 +1392,7 @@ sub create_windows() {
     $windows{text_entry} = $windows{main_window}->Entry(
         -textvariable      => \$menus{entrytext},
         -insertborderwidth => 4,
-        -width             => 25,
+        -width             => $self->config->{console_width},
         -class             => 'cssh',
         )->pack(
         -fill   => "x",
